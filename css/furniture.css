@@ -1,0 +1,285 @@
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	height: 100%;
+	background: rgba(250,247,247,0.7);
+}
+
+html {
+	height: 100%;
+}
+
+.navbar .scrolled {
+	background: red;
+}
+
+#small-text1 .small-text {
+	font-family: 'Playfair Display', serif;
+	color: #12102c;
+	line-height: 40px;
+	margin: 50px auto;
+	font-size: 20px;
+}
+
+#row-1 .row-text {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	font-size: 26px;
+	line-height: 42px;
+}
+
+
+#row-2 .row2-text {
+	font-family: 'Playfair Display', serif;
+	text-align: left;
+	font-size: 45px;
+	line-height: 55px;
+}
+
+#row-1 .row-p {
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	color: grey;
+	font-size: 12px;
+}
+
+
+#row-2 .row2-p {
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	color: grey;
+	font-size: 12px;
+}
+
+#row-1 .row-text1 {
+	font-family: 'Italianno', cursive;
+	text-align: left;
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 500px;
+	font-style: italic;
+}
+
+
+ #row-2 .row2-text1 {
+	font-family: 'Italianno', cursive;
+	text-align: left;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 500px;
+	font-style: italic;
+}
+
+.btn-view {
+	background: black;
+	color: white;
+}
+
+.btn-comment {
+	background: green;
+	color: white;
+}
+
+.btn-comment:hover {
+	background: white;
+	color: green;
+}
+
+.btn-view:hover {
+	background: lightgrey;
+	color: black;
+}
+
+.btn-contact:hover {
+	background: lightgrey;
+	color: white;
+}
+
+#intro-section {
+	height: 100%;
+	width: 100%;
+	background: url("../images/fur8.jpg") center center / cover no-repeat;
+	margin-top: 0px;
+}
+
+#intro-section .intro-text {
+	margin-top: 20%;
+}
+
+#MainNavBar .bg-custom {
+	background-color: rgba(225,225,225,0.4);
+}
+
+#MainNavBar .nav-buttons .button-links {
+	color: white;
+	background: rgba(250,247,247,0.2);
+	font-size: 1.05rem;
+}
+
+#MainNavBar .link-border {
+	font-size: 1.05rem;
+	color: white;
+}
+
+#MainNavBar .social-buttons {
+	margin-left: 100px;
+}
+
+#MainNavBar .social-buttons a {
+	color: white;
+}
+
+#MainNavBar .social-buttons a:hover {
+	color: rgba(250,247,247,0.7);
+}
+
+#MainNavBar .nav-buttons .button-links:hover {
+	color: lightgrey;
+	font-size: 1.08rem;
+	background: white;
+}
+
+#MainNavBar .link-border:hover {
+	font-size: 1.08rem;
+	color: lightgrey;
+}
+
+#intro-section .home {
+	position: relative; 
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 2%;
+	text-shadow: 5px 4px 4px lightgrey;
+	letter-spacing: 15px;
+	/*lightgrey: rgba(203,146,72,0.8);*/
+	color: rgba(28,28,28,0.8);
+}
+
+#intro-section .is {
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	margin-top: 85px;
+	text-shadow: 5px 4px 4px lightgrey;
+	/*color: rgba(203,146,72,0.8);*/
+	color: rgba(28,28,28,0.8);
+
+}
+
+#intro-section .where {
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	margin-top: 94px;
+	text-shadow: 5px 4px 4px lightgrey;
+	/*color: rgba(203,146,72,0.8);*/
+	color: rgba(28,28,28,0.8);
+} 
+
+#intro-section .heart {
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	margin-top: 87px;
+	letter-spacing: 25px;
+	text-shadow: 5px 4px 4px lightgrey;
+	/*color: rgba(203,146,72,0.8);*/
+	color: rgba(28,28,28,0.8);
+} 
+
+#intro-section .is2 {
+	position: absolute; 
+	top: 0; 
+	width: 100%; 
+	margin-top: 155px;
+	font-size: 2rem;
+	margin-left: 7%;
+	text-shadow: 5px 4px 4px lightgrey;
+	/*color: rgba(203,146,72,0.7);*/
+	color: rgba(28,28,28,0.8);
+} 
+
+#overlap .overlap-text {
+	position: absolute;
+	margin-top: 500px;
+	z-index: 2;
+	font-size: 22px;
+}
+
+#row-2 .border-image {
+	position: relative;
+	z-index: 1;
+}
+
+#footer-nav .footer-text {
+	color: white;
+	font-size: 7px;
+}
+
+@media (max-width: 576px) {
+	#small-text1 .small-text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		font-style: normal;
+		line-height: 22px;
+		color: #12102c;
+		margin: 40px auto;
+		padding: auto 0;
+	}
+
+
+	#small-text1 .small-text p {
+		margin-bottom: 10px; 
+	}
+
+
+
+#row-2 .row2-text1 {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 2px;
+}
+
+#row-1 .row-text {
+	font-size: 20px;
+	line-height: 25px;
+	margin-bottom: 2px;
+
+}
+
+#row-2 .row2-text {
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 2px;
+}
+
+#row-1 .row-p {
+	font-size: 12px;
+}
+
+#row-2 .row2-p {
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+
+#row-1 .row-text1 {
+	font-size: 23px;
+	line-height: 25px;
+	margin-bottom: 2px;
+
+}
+
+
+#overlap .overlap-text {
+	margin-top: 300px;
+	font-size: 17px;
+}
+
+}
+
+/*span {
+	font-family: 'Playfair Display', serif;
+	color: white;
+}*/
+
+
